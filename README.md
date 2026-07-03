@@ -10,6 +10,8 @@ Default register bank:
 - Side B: `0.0.0.0:1502`
 - Debug UI: `http://127.0.0.1:8080`
 
+Each side has its own `host` and `port` setting. Use `127.0.0.1` for localhost-only access, or `0.0.0.0` to listen on all network interfaces.
+
 ## Install
 
 ```powershell
@@ -31,6 +33,27 @@ For a quick non-privileged smoke test:
 
 ```powershell
 .\.venv\Scripts\python .\smoke_test.py
+```
+
+For a local two-port setup on the same machine:
+
+```powershell
+.\.venv\Scripts\python .\modbus_b2b_service.py --config .\config.localhost.example.json
+```
+
+That listens on:
+
+- Side A: `127.0.0.1:1502`
+- Side B: `127.0.0.1:1503`
+- Debug UI: `http://127.0.0.1:8080`
+
+The same pattern works in `config.json` after EXE install:
+
+```json
+{
+  "side_a": { "host": "127.0.0.1", "port": 1502 },
+  "side_b": { "host": "127.0.0.1", "port": 1503 }
+}
 ```
 
 ## Two standard Modbus TCP ports
