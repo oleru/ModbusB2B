@@ -1,0 +1,26 @@
+{
+  "side_a": {
+    "name": "Local Citect side",
+    "host": "127.0.0.1",
+    "port": 1502
+  },
+  "side_b": {
+    "name": "External upstream side",
+    "host": "0.0.0.0",
+    "port": 502
+  },
+  "debug": {
+    "host": "127.0.0.1",
+    "port": 8080
+  },
+  "registers": {
+    "start": 40000,
+    "end": 41000,
+    "active_start": 40033,
+    "active_end": 40359,
+    "modbus_base": 40000,
+    "definitions_file": "registers.example.json"
+  },
+  "unit_id": 1,
+  "single_unit": true
+}

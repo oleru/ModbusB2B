@@ -10,7 +10,7 @@ Default register bank:
 - Side B: `0.0.0.0:1502`
 - Debug UI: `http://127.0.0.1:8080`
 
-Each side has its own `host` and `port` setting. Use `127.0.0.1` for localhost-only access, or `0.0.0.0` to listen on all network interfaces.
+Each side has its own `host` and `port` setting. Use `127.0.0.1` for localhost-only access, `0.0.0.0` to listen on all network interfaces, or a concrete IP address such as `192.168.10.20` to listen only on that interface.
 
 ## Install
 
@@ -56,6 +56,35 @@ The same pattern works in `config.json` after EXE install:
 }
 ```
 
+Other valid binding patterns:
+
+```json
+{
+  "side_a": { "host": "127.0.0.1", "port": 1502 },
+  "side_b": { "host": "0.0.0.0", "port": 502 }
+}
+```
+
+```json
+{
+  "side_a": { "host": "0.0.0.0", "port": 502 },
+  "side_b": { "host": "0.0.0.0", "port": 1502 }
+}
+```
+
+```json
+{
+  "side_a": { "host": "192.168.1.10", "port": 502 },
+  "side_b": { "host": "192.168.2.10", "port": 502 }
+}
+```
+
+Included examples:
+
+- `config.localhost.example.json`: both sides localhost, different ports
+- `config.mixed.example.json`: one side localhost, one side external
+- `config.external.example.json`: both sides external, different ports
+
 ## Two standard Modbus TCP ports
 
 Two services cannot listen on the same IP and same port. If both sides must use port `502`, bind them to different local IP addresses:
@@ -66,6 +95,8 @@ Two services cannot listen on the same IP and same port. If both sides must use 
   "side_b": { "host": "192.168.2.10", "port": 502 }
 }
 ```
+
+Do not combine `0.0.0.0:502` with `127.0.0.1:502` or another concrete local IP on port `502`; `0.0.0.0` already covers those addresses.
 
 ## Address mapping
 

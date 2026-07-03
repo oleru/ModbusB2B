@@ -32,6 +32,8 @@ New-Item -ItemType Directory -Path $ReleaseDir | Out-Null
 
 Copy-Item -LiteralPath $DistExe -Destination (Join-Path $ReleaseDir "ModbusB2B.exe")
 Copy-Item -LiteralPath (Join-Path $Root "config.example.json") -Destination (Join-Path $ReleaseDir "config.json")
+Copy-Item -LiteralPath (Join-Path $Root "config.mixed.example.json") -Destination $ReleaseDir
+Copy-Item -LiteralPath (Join-Path $Root "config.external.example.json") -Destination $ReleaseDir
 Copy-Item -LiteralPath (Join-Path $Root "config.localhost.example.json") -Destination $ReleaseDir
 Copy-Item -LiteralPath (Join-Path $Root "registers.example.json") -Destination (Join-Path $ReleaseDir "registers.json")
 Copy-Item -LiteralPath (Join-Path $Root "install-autostart.ps1") -Destination $ReleaseDir

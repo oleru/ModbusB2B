@@ -74,6 +74,39 @@ def load_definitions(path: str | None, config_dir: Path) -> dict[int, dict[str, 
     return {int(register): details for register, details in raw.items()}
 
 
+def normalize_bind_host(host: str) -> str:
+    normalized = host.strip().lower()
+    if normalized == "localhost":
+        return "127.0.0.1"
+    return normalized
+
+
+def bind_endpoints_conflict(left_host: str, left_port: int, right_host: str, right_port: int) -> bool:
+    if left_port != right_port:
+        return False
+    left = normalize_bind_host(left_host)
+    right = normalize_bind_host(right_host)
+    if left == right:
+        return True
+    return "0.0.0.0" in {left, right}
+
+
+def validate_listener_config(config: dict[str, Any]) -> None:
+    listeners = [
+        ("side_a", str(config["side_a"]["host"]), int(config["side_a"]["port"])),
+        ("side_b", str(config["side_b"]["host"]), int(config["side_b"]["port"])),
+        ("debug", str(config["debug"]["host"]), int(config["debug"]["port"])),
+    ]
+    for index, left in enumerate(listeners):
+        for right in listeners[index + 1 :]:
+            if bind_endpoints_conflict(left[1], left[2], right[1], right[2]):
+                raise ValueError(
+                    f"{left[0]} ({left[1]}:{left[2]}) conflicts with "
+                    f"{right[0]} ({right[1]}:{right[2]}). Use different ports, "
+                    "different concrete IP addresses, or avoid 0.0.0.0 on the same port."
+                )
+
+
 @dataclass
 class RegisterBank:
     start: int
@@ -359,6 +392,7 @@ async def run_modbus_side(name: str, host: str, port: int, device: SimDevice) ->
 
 
 async def run(config: dict[str, Any], config_dir: Path) -> None:
+    validate_listener_config(config)
     register_config = config["registers"]
     bank = RegisterBank(
         start=int(register_config["start"]),
