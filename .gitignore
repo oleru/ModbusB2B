@@ -1,0 +1,10 @@
+.venv/
+.agents/
+.codex/
+__pycache__/
+*.pyc
+build/
+dist/
+release/
+*.spec
+logs/

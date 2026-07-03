@@ -1,0 +1,10 @@
+{
+  "40033": {
+    "name": "Example status",
+    "description": "Replace with real register definition when available"
+  },
+  "40034": {
+    "name": "Example command",
+    "description": "Debug UI can show these names next to raw values"
+  }
+}
