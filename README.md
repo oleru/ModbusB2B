@@ -58,6 +58,23 @@ The same pattern works in `config.json` after EXE install:
 
 Other valid binding patterns:
 
+Both sides on standard Modbus TCP port `502`, local test:
+
+```json
+{
+  "side_a": { "host": "127.0.0.1", "port": 502 },
+  "side_b": { "host": "127.0.0.2", "port": 502 }
+}
+```
+
+Run that with:
+
+```powershell
+.\.venv\Scripts\python .\modbus_b2b_service.py --config .\config.dual502.localhost.example.json
+```
+
+Most Windows systems route the whole `127.0.0.0/8` range to loopback, so `127.0.0.2` normally works without adding an IP address.
+
 ```json
 {
   "side_a": { "host": "127.0.0.1", "port": 1502 },
@@ -82,12 +99,24 @@ Other valid binding patterns:
 Included examples:
 
 - `config.localhost.example.json`: both sides localhost, different ports
+- `config.dual502.localhost.example.json`: both sides localhost, both on port `502`, using different loopback IPs
 - `config.mixed.example.json`: one side localhost, one side external
 - `config.external.example.json`: both sides external, different ports
 
 ## Two standard Modbus TCP ports
 
-Two services cannot listen on the same IP and same port. If both sides must use port `502`, bind them to different local IP addresses:
+Two services cannot listen on the same IP and same port. If both sides must use port `502`, bind them to different local IP addresses.
+
+For local-only testing, use different loopback IPs:
+
+```json
+{
+  "side_a": { "host": "127.0.0.1", "port": 502 },
+  "side_b": { "host": "127.0.0.2", "port": 502 }
+}
+```
+
+For real network access, use two IP addresses assigned to the Windows machine:
 
 ```json
 {
@@ -97,6 +126,15 @@ Two services cannot listen on the same IP and same port. If both sides must use 
 ```
 
 Do not combine `0.0.0.0:502` with `127.0.0.1:502` or another concrete local IP on port `502`; `0.0.0.0` already covers those addresses.
+
+Example for adding a secondary IPv4 address to a Windows network adapter:
+
+```powershell
+Get-NetAdapter
+New-NetIPAddress -InterfaceAlias "Ethernet" -IPAddress 192.168.2.10 -PrefixLength 24
+```
+
+Use the actual adapter name and subnet for the installation network.
 
 ## Address mapping
 

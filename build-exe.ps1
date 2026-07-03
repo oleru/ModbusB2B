@@ -35,6 +35,7 @@ Copy-Item -LiteralPath (Join-Path $Root "config.example.json") -Destination (Joi
 Copy-Item -LiteralPath (Join-Path $Root "config.mixed.example.json") -Destination $ReleaseDir
 Copy-Item -LiteralPath (Join-Path $Root "config.external.example.json") -Destination $ReleaseDir
 Copy-Item -LiteralPath (Join-Path $Root "config.localhost.example.json") -Destination $ReleaseDir
+Copy-Item -LiteralPath (Join-Path $Root "config.dual502.localhost.example.json") -Destination $ReleaseDir
 Copy-Item -LiteralPath (Join-Path $Root "registers.example.json") -Destination (Join-Path $ReleaseDir "registers.json")
 Copy-Item -LiteralPath (Join-Path $Root "install-autostart.ps1") -Destination $ReleaseDir
 Copy-Item -LiteralPath (Join-Path $Root "uninstall-autostart.ps1") -Destination $ReleaseDir
