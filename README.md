@@ -43,7 +43,7 @@ For a local two-port setup on the same machine:
 
 That listens on:
 
-- Side A: `127.0.0.1:1502`
+- Side A: `127.0.0.1:502`
 - Side B: `127.0.0.1:1503`
 - Debug UI: `http://127.0.0.1:8080`
 
@@ -51,7 +51,7 @@ The same pattern works in `config.json` after EXE install:
 
 ```json
 {
-  "side_a": { "host": "127.0.0.1", "port": 1502 },
+  "side_a": { "host": "127.0.0.1", "port": 502 },
   "side_b": { "host": "127.0.0.1", "port": 1503 }
 }
 ```

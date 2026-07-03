@@ -2,7 +2,7 @@
   "side_a": {
     "name": "Local side A",
     "host": "127.0.0.1",
-    "port": 1502
+    "port": 502
   },
   "side_b": {
     "name": "Local side B",
