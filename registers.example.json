@@ -1,10 +1,1100 @@
-{
-  "40033": {
-    "name": "Example status",
-    "description": "Replace with real register definition when available"
-  },
-  "40034": {
-    "name": "Example command",
-    "description": "Debug UI can show these names next to raw values"
-  }
+﻿{
+    "40033":  {
+                  "name":  "CalcForeDraught",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40034":  {
+                  "name":  "CalcAftDraught",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40035":  {
+                  "name":  "CalcPortDraught",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40036":  {
+                  "name":  "CalcStbDraught",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40037":  {
+                  "name":  "CalcTrim",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40038":  {
+                  "name":  "CalcList",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40039":  {
+                  "name":  "WD_Consultas",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40101":  {
+                  "name":  "CT_1P_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40102":  {
+                  "name":  "CT_1S_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40103":  {
+                  "name":  "CT_2P_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40104":  {
+                  "name":  "CT_2S_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40105":  {
+                  "name":  "CT_3P_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40106":  {
+                  "name":  "CT_3S_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40107":  {
+                  "name":  "CT_4P_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40108":  {
+                  "name":  "CT_4S_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40109":  {
+                  "name":  "CT_5P_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40110":  {
+                  "name":  "CT_5S_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40115":  {
+                  "name":  "CT_6P_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40116":  {
+                  "name":  "CT_6S_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40117":  {
+                  "name":  "CT_SP_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40118":  {
+                  "name":  "CT_SS_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40119":  {
+                  "name":  "WB_FP_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40120":  {
+                  "name":  "WB_1P_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40121":  {
+                  "name":  "WB_1S_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40122":  {
+                  "name":  "WB_2P_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40123":  {
+                  "name":  "WB_2S_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40131":  {
+                  "name":  "WB_3P_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40132":  {
+                  "name":  "WB_4_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40133":  {
+                  "name":  "WB_5P_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40134":  {
+                  "name":  "WB_5S_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40135":  {
+                  "name":  "WB_6P_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40136":  {
+                  "name":  "WB_6S_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40137":  {
+                  "name":  "WB_7P_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40138":  {
+                  "name":  "WB_8P_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40139":  {
+                  "name":  "WB_8S_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40140":  {
+                  "name":  "WB_AP_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40151":  {
+                  "name":  "CT_1P_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40152":  {
+                  "name":  "CT_1S_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40153":  {
+                  "name":  "CT_2P_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40154":  {
+                  "name":  "CT_2S_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40155":  {
+                  "name":  "CT_3P_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40156":  {
+                  "name":  "CT_3S_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40157":  {
+                  "name":  "CT_4P_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40158":  {
+                  "name":  "CT_4S_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40159":  {
+                  "name":  "CT_5P_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40160":  {
+                  "name":  "CT_5S_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40165":  {
+                  "name":  "CT_6P_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40166":  {
+                  "name":  "CT_6S_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40167":  {
+                  "name":  "CT_SP_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40168":  {
+                  "name":  "CT_SS_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40169":  {
+                  "name":  "WB_FP_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40170":  {
+                  "name":  "WB_1P_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40171":  {
+                  "name":  "WB_1S_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40172":  {
+                  "name":  "WB_2P_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40173":  {
+                  "name":  "WB_2S_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40178":  {
+                  "name":  "WB_3S_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40179":  {
+                  "name":  "WB_7S_Weight",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40181":  {
+                  "name":  "WB_3P_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40182":  {
+                  "name":  "WB_4_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40183":  {
+                  "name":  "WB_5P_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40184":  {
+                  "name":  "WB_5S_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40185":  {
+                  "name":  "WB_6P_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40186":  {
+                  "name":  "WB_6S_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40187":  {
+                  "name":  "WB_7P_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40188":  {
+                  "name":  "WB_8P_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40189":  {
+                  "name":  "WB_8S_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40190":  {
+                  "name":  "WB_AP_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40201":  {
+                  "name":  "CT_1P_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40202":  {
+                  "name":  "CT_1S_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40203":  {
+                  "name":  "CT_2P_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40204":  {
+                  "name":  "CT_2S_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40205":  {
+                  "name":  "CT_3P_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40206":  {
+                  "name":  "CT_3S_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40207":  {
+                  "name":  "CT_4P_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40208":  {
+                  "name":  "CT_4S_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40209":  {
+                  "name":  "CT_5P_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40210":  {
+                  "name":  "CT_5S_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40215":  {
+                  "name":  "CT_6P_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40216":  {
+                  "name":  "CT_6S_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40217":  {
+                  "name":  "CT_SP_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40218":  {
+                  "name":  "CT_SS_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40219":  {
+                  "name":  "WB_FP_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40220":  {
+                  "name":  "WB_1P_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40221":  {
+                  "name":  "WB_1S_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40222":  {
+                  "name":  "WB_2P_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40223":  {
+                  "name":  "WB_2S_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40224":  {
+                  "name":  "WB_3P_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40225":  {
+                  "name":  "WB_3S_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40226":  {
+                  "name":  "WB_4_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40227":  {
+                  "name":  "WB_5P_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40228":  {
+                  "name":  "WB_5S_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40229":  {
+                  "name":  "WB_6P_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40230":  {
+                  "name":  "WB_6S_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40231":  {
+                  "name":  "WB_7P_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40232":  {
+                  "name":  "WB_7S_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40233":  {
+                  "name":  "WB_8P_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40234":  {
+                  "name":  "WB_8S_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40235":  {
+                  "name":  "WB_AP_Density",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40242":  {
+                  "name":  "FO_Daily_10P_Level",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS, aliases=FO_Stor_9P_Level",
+                  "aliases":  [
+                                  "FO_Stor_9P_Level"
+                              ]
+              },
+    "40243":  {
+                  "name":  "FO_Daily_10S_Level",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS, aliases=FO_Stor_9S_Level",
+                  "aliases":  [
+                                  "FO_Stor_9S_Level"
+                              ]
+              },
+    "40244":  {
+                  "name":  "FO_Settl_11P_Level",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40245":  {
+                  "name":  "FO_Settl_11S_Level",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40246":  {
+                  "name":  "FO_Stor_26P_Level",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40247":  {
+                  "name":  "DO_Store_13S_Level",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40248":  {
+                  "name":  "DO_Settl_14P_Level",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40249":  {
+                  "name":  "DO_Daily_15S_Level",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40250":  {
+                  "name":  "LO_Cyl_16P_Level",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40251":  {
+                  "name":  "CT_1P_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40252":  {
+                  "name":  "CT_1S_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40253":  {
+                  "name":  "CT_2P_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40254":  {
+                  "name":  "CT_2S_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40255":  {
+                  "name":  "CT_3P_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40256":  {
+                  "name":  "CT_3S_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40257":  {
+                  "name":  "CT_4P_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40258":  {
+                  "name":  "CT_4S_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40259":  {
+                  "name":  "CT_5P_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40260":  {
+                  "name":  "CT_5S_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40261":  {
+                  "name":  "LO_Cyl_16S_Level",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40262":  {
+                  "name":  "LO_Store_17P_Level",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40263":  {
+                  "name":  "LO_Settl_18S_Level",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40264":  {
+                  "name":  "FW_23P_Level",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40265":  {
+                  "name":  "CT_6P_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40266":  {
+                  "name":  "CT_6S_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40267":  {
+                  "name":  "CT_SP_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40268":  {
+                  "name":  "CT_SS_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40269":  {
+                  "name":  "WB_FP_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40270":  {
+                  "name":  "WB_1P_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40271":  {
+                  "name":  "WB_1S_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40272":  {
+                  "name":  "WB_2P_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40273":  {
+                  "name":  "WB_2S_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40275":  {
+                  "name":  "FW_23S_Level",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40276":  {
+                  "name":  "Boiler_24P_Level",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40277":  {
+                  "name":  "Boiler_24S_Level",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40281":  {
+                  "name":  "WB_3P_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40282":  {
+                  "name":  "WB_4_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40283":  {
+                  "name":  "WB_5P_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40284":  {
+                  "name":  "WB_5S_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40285":  {
+                  "name":  "WB_6P_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40286":  {
+                  "name":  "WB_6S_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40287":  {
+                  "name":  "WB_7P_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40288":  {
+                  "name":  "WB_8P_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40289":  {
+                  "name":  "WB_8S_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40290":  {
+                  "name":  "WB_AP_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40292":  {
+                  "name":  "FO_Daily_10P_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS, aliases=FO_Stor_9P_Volume",
+                  "aliases":  [
+                                  "FO_Stor_9P_Volume"
+                              ]
+              },
+    "40293":  {
+                  "name":  "FO_Daily_10S_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS, aliases=FO_Stor_9S_Volume",
+                  "aliases":  [
+                                  "FO_Stor_9S_Volume"
+                              ]
+              },
+    "40294":  {
+                  "name":  "FO_Settl_11P_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40295":  {
+                  "name":  "FO_Settl_11S_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40296":  {
+                  "name":  "FO_Stor_26P_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40297":  {
+                  "name":  "DO_Store_13S_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40298":  {
+                  "name":  "DO_Settl_14P_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40299":  {
+                  "name":  "DO_Daily_15S_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40300":  {
+                  "name":  "LO_Cyl_16P_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40311":  {
+                  "name":  "LO_Cyl_16S_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40312":  {
+                  "name":  "LO_Store_17P_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40313":  {
+                  "name":  "LO_Settl_18S_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40314":  {
+                  "name":  "FW_23P_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40325":  {
+                  "name":  "FW_23S_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40326":  {
+                  "name":  "Boiler_24P_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40327":  {
+                  "name":  "Boiler_24S_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40328":  {
+                  "name":  "WB_3S_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40329":  {
+                  "name":  "WB_7S_Volume",
+                  "type":  "UINT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=UINT, UNIT=CONSULTAS"
+              },
+    "40341":  {
+                  "name":  "WB_7S_VolPct",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40342":  {
+                  "name":  "FO_Daily_10P_VolPct",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS, aliases=FO_Stor_9P_VolPct",
+                  "aliases":  [
+                                  "FO_Stor_9P_VolPct"
+                              ]
+              },
+    "40343":  {
+                  "name":  "FO_Daily_10S_VolPct",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS, aliases=FO_Stor_9S_VolPct",
+                  "aliases":  [
+                                  "FO_Stor_9S_VolPct"
+                              ]
+              },
+    "40344":  {
+                  "name":  "FO_Settl_11P_VolPct",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40345":  {
+                  "name":  "FO_Settl_11S_VolPct",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40346":  {
+                  "name":  "FO_Stor_26P_VolPct",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40347":  {
+                  "name":  "DO_Store_13S_VolPct",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40348":  {
+                  "name":  "DO_Settl_14P_VolPct",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40349":  {
+                  "name":  "DO_Daily_15S_VolPct",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40350":  {
+                  "name":  "LO_Cyl_16P_VolPct",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40351":  {
+                  "name":  "LO_Cyl_16S_VolPct",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40352":  {
+                  "name":  "LO_Store_17P_VolPct",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40353":  {
+                  "name":  "LO_Settl_18S_VolPct",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40354":  {
+                  "name":  "FW_23P_VolPct",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40355":  {
+                  "name":  "FW_23S_VolPct",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40356":  {
+                  "name":  "Boiler_24P_VolPct",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40357":  {
+                  "name":  "Boiler_24S_VolPct",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40358":  {
+                  "name":  "WB_3S_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              },
+    "40359":  {
+                  "name":  "WB_7S_Rate",
+                  "type":  "INT",
+                  "unit":  "CONSULTAS",
+                  "description":  "TYPE=INT, UNIT=CONSULTAS"
+              }
 }

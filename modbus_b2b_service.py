@@ -56,7 +56,7 @@ def deep_merge(base: dict[str, Any], override: dict[str, Any]) -> dict[str, Any]
 def load_config(path: Path | None) -> dict[str, Any]:
     if path is None:
         return DEFAULT_CONFIG
-    with path.open("r", encoding="utf-8") as handle:
+    with path.open("r", encoding="utf-8-sig") as handle:
         return deep_merge(DEFAULT_CONFIG, json.load(handle))
 
 
@@ -69,7 +69,7 @@ def load_definitions(path: str | None, config_dir: Path) -> dict[int, dict[str, 
     if not definition_path.exists():
         LOG.warning("Register definitions file not found: %s", definition_path)
         return {}
-    with definition_path.open("r", encoding="utf-8") as handle:
+    with definition_path.open("r", encoding="utf-8-sig") as handle:
         raw = json.load(handle)
     return {int(register): details for register, details in raw.items()}
 
@@ -172,6 +172,9 @@ class RegisterBank:
                         "pdu_address": self.register_to_pdu(register),
                         "value": value,
                         "name": definition.get("name", ""),
+                        "type": definition.get("type", ""),
+                        "unit": definition.get("unit", ""),
+                        "aliases": definition.get("aliases", []),
                         "description": definition.get("description", ""),
                     }
                 )
@@ -218,7 +221,7 @@ HTML = """<!doctype html>
   </header>
   <div class="status" id="status"></div>
   <table>
-    <thead><tr><th>Register</th><th>PDU</th><th>Value</th><th>Name</th><th>Description</th><th></th></tr></thead>
+    <thead><tr><th>Register</th><th>PDU</th><th>Value</th><th>Name</th><th>Type</th><th>Unit</th><th>Description</th><th></th></tr></thead>
     <tbody id="rows"></tbody>
   </table>
 <script>
@@ -239,6 +242,8 @@ async function loadRows() {
       <td>${row.pdu_address}</td>
       <td><input id="v${row.register}" type="number" min="0" max="65535" value="${row.value}"></td>
       <td>${escapeHtml(row.name)}</td>
+      <td>${escapeHtml(row.type)}</td>
+      <td>${escapeHtml(row.unit)}</td>
       <td class="desc">${escapeHtml(row.description)}</td>
       <td><button onclick="writeRegister(${row.register})">Write</button></td>
     </tr>`).join('');

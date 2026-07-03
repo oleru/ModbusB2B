@@ -158,13 +158,15 @@ Put known register definitions in `registers.example.json`:
 ```json
 {
   "40033": {
-    "name": "Pump status",
-    "description": "0=Stopped, 1=Running"
+    "name": "CalcForeDraught",
+    "type": "INT",
+    "unit": "CONSULTAS",
+    "description": "TYPE=INT, UNIT=CONSULTAS"
   }
 }
 ```
 
-The file can be renamed; update `registers.definitions_file` in the config.
+The file can be renamed; update `registers.definitions_file` in the config. If several names map to the same register, keep the primary name in `name` and add the rest in `aliases`.
 
 ## Windows service option
 
